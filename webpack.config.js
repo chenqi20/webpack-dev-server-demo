@@ -1,4 +1,5 @@
 var path = require('path');
+require('readcurpwd');
 
 module.exports = {
     entry: './src/index.js',
