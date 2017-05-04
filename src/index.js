@@ -1,5 +1,5 @@
 let a = 9;
-console.log(a);
+console.log("握草"+a);
 
 class Air{
     constructor(){
