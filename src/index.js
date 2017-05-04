@@ -17,3 +17,5 @@ class Air{
     }
 }
 new Air();
+
+var b = "wocao"
