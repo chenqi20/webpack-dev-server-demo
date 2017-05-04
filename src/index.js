@@ -1,5 +1,5 @@
 let a = 9;
-console.log("握草"+a);
+console.log(a+"git rebase test");
 
 class Air{
     constructor(){
