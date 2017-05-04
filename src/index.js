@@ -1,5 +1,5 @@
 let a = 9;
-console.log("握草"+a);
+console.log(a+"git rebase test");
 
 class Air{
     constructor(){
@@ -7,7 +7,13 @@ class Air{
         this.fetchPage();
     }
     fetchPage(){
-        console.log(this.name)
+        this.test(...{
+            a:"chenqi",
+            b:"25"
+        })
+    }
+    test(param){
+        console.log(param);
     }
 }
 new Air();
