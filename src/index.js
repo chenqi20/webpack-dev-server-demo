@@ -7,7 +7,13 @@ class Air{
         this.fetchPage();
     }
     fetchPage(){
-        console.log(this.name)
+        this.test(...{
+            a:"chenqi",
+            b:"25"
+        })
+    }
+    test(param){
+        console.log(param);
     }
 }
 new Air();
