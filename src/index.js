@@ -17,5 +17,5 @@ class Air{
     }
 }
 new Air();
-
+let a="el"
 var b = "wocao"
